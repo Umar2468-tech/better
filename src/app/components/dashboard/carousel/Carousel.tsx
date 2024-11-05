@@ -43,6 +43,7 @@ const Carousel = () => {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `url(${item.backgroundImage})` }}
               />
+
               <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-50" />
               <div className="relative flex flex-col gap-3">
                 <item.icon className="text-blue-600 group-hover:text-blue-400 w-[32px] h-[32px]" />
