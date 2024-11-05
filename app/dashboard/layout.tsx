@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react'
 import Navbar from '../components/dashboard/navbar/Navbar'
 import Footer from '../components/dashboard/footer/Footer'
-import Aboutus from '../components/dashboard/aboutus/Aboutus'
+
 
 const layout = ({children}:any) => {
   return (
@@ -9,9 +10,12 @@ const layout = ({children}:any) => {
       
       <div>
         <Navbar/>
+        <div className='bg-[#2B18A5]'>
+        
         {children}
-        <Aboutus/>
         <Footer/>
+
+        </div>
       </div>
     </div>
   )

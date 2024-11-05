@@ -6,7 +6,7 @@ import { TfiYoutube } from "react-icons/tfi";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-[#414141] h-[400px] ">
+      <div className="bg-[#414141] h-[400px] mt-2">
         <div className="grid grid-cols-4 p-10 gap-6">
           <div className="text-white">
             <h1 className="mb-4 text-[20px] font-sans font-bold">About Us</h1>

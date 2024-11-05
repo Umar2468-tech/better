@@ -3,7 +3,7 @@ import React from 'react'
 const Aboutus = () => {
   return (
     <div>
-      <div className="bg-[#2B18A5] h-[800px] w-full ">
+      <div className="mb-4 w-full ">
         <div className="bg-white bg-opacity-20 backdrop-blur-lg h-[600px] bg-gradient-to-br from-[#9665df92] via-[#9081fe70] to-[#6e69fd81] w-full shadow-lg  p-8 relative top-4">
           <h1 className="text-center text-[36px] text-white mb-4 absolute top-4 left-1/2 transform -translate-x-1/2 font-[600] ">
             About Us
@@ -22,8 +22,6 @@ const Aboutus = () => {
               </button>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>

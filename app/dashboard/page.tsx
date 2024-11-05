@@ -1,11 +1,18 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import { TfiYoutube } from 'react-icons/tfi';
+import Aboutus from '../components/dashboard/aboutus/Aboutus';
+import Accomplishments from '../components/dashboard/accomplishments/Accomplishments';
+import MakesBetterDeals from '../components/dashboard/makesBetterDeals/MakesBetterDeals';
+import Responsibilities from '../components/dashboard/responsibilities/Responsibilities';
+import Discover from '../components/dashboard/discover/Discover';
 
 const Page = () => {
   return (
     <div>
-      <div className="mx-24">
+      <div className="bg-white mx-full">
         <div className="grid grid-cols-2 h-[650px] w-full">
           <div className="flex flex-col justify-center p-12 relative">
             <div className="p-8 leading-9">
@@ -44,6 +51,11 @@ const Page = () => {
           </div>
         </div>
       </div>
+      <Aboutus/>
+        <Accomplishments/>
+        <MakesBetterDeals/>
+        <Responsibilities/>
+        <Discover/>
     </div>
   );
 }

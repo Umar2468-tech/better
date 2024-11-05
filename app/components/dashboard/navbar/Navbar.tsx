@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
@@ -8,11 +9,11 @@ const Navbar = () => {
         },
         {
             id:2,
-            text : "Products"
+            text : "Product"
         },
         {
             id:3,
-            text : "About Us"
+            text : <Link href="/dashboard/aboutus">Aboutus</Link>
         },
         {
             id:4,
